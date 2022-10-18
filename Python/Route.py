@@ -1,5 +1,5 @@
 class Route:
 
-    id
+    id = int
     start = list()
     end = list()

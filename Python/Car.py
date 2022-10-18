@@ -1,8 +1,6 @@
-from random import random
-
 
 class Car:
-    id = random(1,101)
+    id = int
 
     def __init__(self, license, driver, passegenger):
         self.license = license

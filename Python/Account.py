@@ -1,9 +1,7 @@
-from random import random
-
 
 class Account:
 
-    id = random(1,101)
+    id = int
 
     def __init__(self, name, document, email, password):
         self.name = name
